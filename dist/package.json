@@ -2,7 +2,7 @@
   "name": "intours",
   "version": "1.0.0",
   "description": "itinerary page",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
