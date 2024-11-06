@@ -1,0 +1,14 @@
+.block {
+  &__inner {
+    padding: 1.5rem;
+    max-width: 500px;
+  }
+
+  &__heading {
+    width: 100%;
+    // height: 30rem;
+    padding: 12rem 0 2rem 0;
+    background-color: $color-tertiary;
+    margin-bottom: 1.5rem;
+  }
+}

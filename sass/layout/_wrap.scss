@@ -1,0 +1,7 @@
+.wrap {
+  @media screen and (min-width: $bp-small) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

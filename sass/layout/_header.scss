@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+
+  &__logo-box {
+    margin: 2rem 0 2rem 0;
+    align-content: center;
+  }
+  &__logo {
+    height: 14rem;
+  }
+}
+
+footer {
+  // margin-top: 3rem;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+}

@@ -1,0 +1,591 @@
+.list {
+  background-color: $color-primary;
+  padding-top: 10rem;
+  &__inner {
+    @media screen and (min-width: $bp-small) {
+      align-items: center;
+    }
+  }
+
+  &__group {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &__title {
+    color: $color-white;
+    font-size: 4rem;
+  }
+
+  &__price {
+    color: $color-white;
+    font-size: 1.5rem;
+  }
+
+  &__type {
+    color: $color-white;
+    font-size: 1.5rem;
+  }
+
+  &__inner {
+    padding: 1.5rem;
+  }
+
+  &__image {
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+    position: relative;
+
+    &--text {
+      color: rgba($color: #fff, $alpha: 0.8);
+      font-size: 2rem;
+      text-align: center;
+      position: absolute;
+      bottom: 1rem;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 35rem;
+    }
+
+    &--articok {
+      background-image: url(../split/list/img/articok_01.jpg);
+    }
+
+    &--adriatic {
+      background-image: url(../split/list/img/adriatic_01.jpg);
+    }
+
+    &--bajamonti {
+      background-image: url(../split/list/img/bajamonti_01.jpg);
+    }
+
+    &--tinel {
+      background-image: url(../split/list/img/tinel_01.jpg);
+    }
+
+    &--konobakorta {
+      background-image: url(../split/list/img/korta_01.jpg);
+    }
+
+    &--konobamarjan {
+      background-image: url(../split/list/img/konobamarjan_01.jpg);
+    }
+
+    &--maona {
+      background-image: url(../split/list/img/maona_01.jpg);
+    }
+
+    &--uje {
+      background-image: url(../split/list/img/uje_01.jpg);
+    }
+
+    &--uje2 {
+      background-image: url(../split/list/img/uje_07.jpg);
+    }
+
+    &--uje3 {
+      background-image: url(../split/list/img/uje_08.jpg);
+    }
+
+    &--uje4 {
+      background-image: url(../split/list/img/uje_09.jpg);
+    }
+
+    &--veg {
+      background-image: url(../split/list/img/veg_01.jpg);
+    }
+
+    &--laf {
+      background-image: url(../split/list/img/laf_01.jpg);
+    }
+
+    &--fabrique {
+      background-image: url(../split/list/img/fabrique_01.jpg);
+    }
+
+    &--adriaticsushi {
+      background-image: url(../split/list/img/adriaticsushi_01.jpg);
+    }
+
+    &--barakokula {
+      background-image: url(../split/list/img/barakokula_01.jpg);
+    }
+
+    &--chopsgrill {
+      background-image: url(../split/list/img/chopsgrill_01.jpg);
+    }
+
+    &--skipper {
+      background-image: url(../split/list/img/skipper_01.jpg);
+    }
+
+    &--sinemori {
+      background-image: url(../split/list/img/sinemori_01.jpg);
+    }
+
+    &--hoba {
+      background-image: url(../split/list/img/hoba_01.jpg);
+    }
+
+    &--bokamorra {
+      background-image: url(../split/list/img/bokamorra_01.jpg);
+    }
+
+    &--bokeria {
+      background-image: url(../split/list/img/bokeria_01.jpg);
+    }
+
+    &--barsistema {
+      background-image: url(../split/list/img/barsistema_01.jpg);
+    }
+
+    &--stringsbar {
+      background-image: url(../split/list/img/stringsbar_01.jpg);
+    }
+
+    &--thedaltonist {
+      background-image: url(../split/list/img/thedaltonist_01.jpg);
+    }
+
+    &--theflagpub {
+      background-image: url(../split/list/img/theflagpub_01.jpg);
+    }
+
+    &--bodylicious {
+      background-image: url(../split/list/img/bodylicious_01.jpg);
+    }
+
+    &--splitandsip {
+      background-image: url(../split/list/img/splitandsip_01.jpg);
+    }
+
+    &--divina {
+      background-image: url(../split/list/img/divina_01.jpg);
+    }
+
+    &--tineltours {
+      background-image: url(../split/list/img/tineltours_01.jpg);
+    }
+
+    &--divotaspa {
+      background-image: url(../split/list/img/divotaspa_01.jpg);
+    }
+
+    &--divotayoga {
+      background-image: url(../split/list/img/divotayoga_01.jpg);
+    }
+
+    &--bomboncic {
+      background-image: url(../split/list/img/bomboncic_01.jpg);
+    }
+
+    &--tineltours2 {
+      background-image: url(../split/list/img/tineltours_05.jpg);
+    }
+
+    &--tineltours3 {
+      background-image: url(../split/list/img/tineltours_11.jpg);
+    }
+
+    &--tineltours4 {
+      background-image: url(../split/list/img/tineltours_02.jpg);
+    }
+
+    &--tineltours5 {
+      background-image: url(../split/list/img/tineltours_13.jpg);
+    }
+
+    &--tineltours6 {
+      background-image: url(../split/list/img/tineltours_07.jpg);
+    }
+
+    &--tineltours7 {
+      background-image: url(../split/list/img/tineltours_14.jpg);
+    }
+
+    &--tineltours8 {
+      background-image: url(../split/list/img/tineltours_15.jpg);
+    }
+
+    &--portofino {
+      background-image: url(../split/list/img/portofino_01.jpg);
+    }
+
+    &--bellesilhouette {
+      background-image: url(../split/list/img/bellesilhouette_01.jpg);
+    }
+
+    &--lesalon {
+      background-image: url(../split/list/img/lesalon_01.jpg);
+    }
+
+    &--katich {
+      background-image: url(../split/list/img/katich_01.jpg);
+    }
+
+    &--amare {
+      background-image: url(../split/list/img/amare_01.jpg);
+    }
+
+    &--amarepjaca {
+      background-image: url(../split/list/img/amarepjaca_01.jpg);
+    }
+
+    &--matela {
+      background-image: url(../split/list/img/matela_01.jpg);
+    }
+    &--drive {
+      background-image: url(../split/list/img/drive_00.jpg);
+    }
+    &--drive1 {
+      background-image: url(../split/list/img/drive_01.jpg);
+    }
+    &--drive2 {
+      background-image: url(../split/list/img/drive_02.jpg);
+    }
+    &--drive3 {
+      background-image: url(../split/list/img/drive_03.jpg);
+    }
+    &--drive4 {
+      background-image: url(../split/list/img/drive_04.jpg);
+    }
+    &--drive5 {
+      background-image: url(../split/list/img/drive_05.jpg);
+    }
+    &--drive6 {
+      background-image: url(../split/list/img/drive_06.jpg);
+    }
+
+    &--diocletiansdream {
+      background-image: url(../split/list/img/diocletiansdream_08.jpg);
+    }
+
+    &--diocletiansdream1 {
+      background-image: url(../split/list/img/diocletiansdream_02.jpg);
+    }
+
+    &--adriaticsocialclub {
+      background-image: url(../split/list/img/adriaticsocialclub_12.jpg);
+    }
+
+    &--sip27 {
+      background-image: url(../split/list/img/sip27_01.jpg);
+    }
+
+    ///////////////////////////////OMIS////////////////////////////////////
+
+    &--shooko {
+      background-image: url(../omis/list/img/shooko_01.jpg);
+    }
+
+    &--shookolat {
+      background-image: url(../omis/list/img/shookolat_01.jpg);
+    }
+
+    &--damiiano {
+      background-image: url(../omis/list/img/damiiano_01.jpg);
+    }
+
+    &--fortica {
+      background-image: url(../omis/list/img/fortica_01.jpg);
+    }
+
+    &--konobabracera {
+      background-image: url(../omis/list/img/konobabracera_01.jpg);
+    }
+
+    &--ultimo {
+      background-image: url(../omis/list/img/ultimo_01.jpg);
+    }
+
+    &--varadero {
+      background-image: url(../omis/list/img/varadero_01.jpg);
+    }
+
+    &--fivestarboat {
+      background-image: url(../omis/list/img/fivestarboat_01.jpg);
+    }
+
+    &--fivestarboat2 {
+      background-image: url(../omis/list/img/fivestarboat_02.jpg);
+    }
+
+    &--fivestarboat3 {
+      background-image: url(../omis/list/img/fivestarboat_03.jpg);
+    }
+
+    &--fivestarboat4 {
+      background-image: url(../omis/list/img/fivestarboat_04.jpg);
+    }
+
+    &--fivestarboat5 {
+      background-image: url(../omis/list/img/fivestarboat_05.jpg);
+    }
+
+    &--fivestarboat6 {
+      background-image: url(../omis/list/img/fivestarboat_06.jpg);
+    }
+
+    &--fivestarboat7 {
+      background-image: url(../omis/list/img/fivestarboat_07.jpg);
+    }
+
+    &--fivestarboat8 {
+      background-image: url(../omis/list/img/fivestarboat_08.jpg);
+    }
+
+    &--fivestarland {
+      background-image: url(../omis/list/img/fivestarland_01.jpg);
+    }
+
+    &--fivestarland2 {
+      background-image: url(../omis/list/img/fivestarland_02.jpg);
+    }
+
+    &--fivestarland3 {
+      background-image: url(../omis/list/img/fivestarland_03.jpg);
+    }
+
+    &--fivestarland4 {
+      background-image: url(../omis/list/img/fivestarland_04.jpg);
+    }
+
+    &--arsana {
+      background-image: url(../omis/list/img/arsana_01.jpg);
+    }
+
+    &--amigos {
+      background-image: url(../omis/list/img/amigos_01.jpg);
+    }
+
+    &--pegastaxi {
+      background-image: url(../omis/list/img/pegastaxi_05.jpg);
+    }
+
+    &--pegastaxi1 {
+      background-image: url(../omis/list/img/pegastaxi_06.jpg);
+    }
+
+    ///////////////////////////////KORCULA////////////////////////////////////
+
+    &--aurora {
+      background-image: url(../korcula/list/img/aurora_01.jpg);
+    }
+
+    &--aurorasweets {
+      background-image: url(../korcula/list/img/aurorasweets_48.jpg);
+    }
+
+    &--aterina {
+      background-image: url(../korcula/list/img/aterina_01.jpg);
+    }
+
+    &--latache {
+      background-image: url(../korcula/list/img/latache_01.jpg);
+    }
+
+    &--maha {
+      background-image: url(../korcula/list/img/maha_01.jpg);
+    }
+
+    &--maslina {
+      background-image: url(../korcula/list/img/maslina_01.jpg);
+    }
+
+    &--nonno {
+      background-image: url(../korcula/list/img/nonno_01.jpg);
+    }
+
+    &--servantes {
+      background-image: url(../korcula/list/img/servantes_01.jpg);
+    }
+
+    &--vrnik {
+      background-image: url(../korcula/list/img/vrnik_01.jpg);
+    }
+
+    &--winecorner {
+      background-image: url(../korcula/list/img/winecorner_01.jpg);
+    }
+
+    &--bakarictaxi {
+      background-image: url(../korcula/list/img/bakarictaxi_01.jpg);
+    }
+
+    &--electricshuttle {
+      background-image: url(../korcula/list/img/electricshuttle_01.jpg);
+    }
+
+    &--korkyrarent {
+      background-image: url(../korcula/list/img/korkyrarent_04.jpg);
+    }
+
+    &--korkyrarent1 {
+      background-image: url(../korcula/list/img/korkyrarent_01.jpg);
+    }
+
+    &--korkyrarent2 {
+      background-image: url(../korcula/list/img/korkyrarent_02.jpg);
+    }
+
+    &--korkyrarent3 {
+      background-image: url(../korcula/list/img/korkyrarent_03.jpg);
+    }
+
+    &--korkyrarent4 {
+      background-image: url(../korcula/list/img/korkyrarent_04.jpg);
+    }
+
+    &--korkyrarent5 {
+      background-image: url(../korcula/list/img/korkyrarent_05.jpg);
+    }
+
+    &--korkyrarent6 {
+      background-image: url(../korcula/list/img/korkyrarent_06.jpg);
+    }
+
+    &--korkyrarent7 {
+      background-image: url(../korcula/list/img/korkyrarent_07.jpg);
+    }
+
+    &--korkyrarent8 {
+      background-image: url(../korcula/list/img/korkyrarent_08.jpg);
+    }
+
+    &--korkyrarent9 {
+      background-image: url(../korcula/list/img/korkyrarent_09.jpg);
+    }
+
+    &--boattours {
+      background-image: url(../korcula/list/img/boattours_01.jpg);
+    }
+
+    &--boattours2 {
+      background-image: url(../korcula/list/img/boattours_02.jpg);
+    }
+
+    &--boattours3 {
+      background-image: url(../korcula/list/img/boattours_03.jpg);
+    }
+
+    &--landtours {
+      background-image: url(../korcula/list/img/landtours_01.jpg);
+    }
+
+    &--landtours2 {
+      background-image: url(../korcula/list/img/landtours_02.jpg);
+    }
+
+    &--nerica {
+      background-image: url(../korcula/list/img/nerica_01.jpg);
+    }
+  }
+
+  &__location {
+    overflow: hidden;
+
+    color: $color-white;
+    font-size: 2rem;
+  }
+
+  &__map {
+    max-width: 600px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+
+  &__details {
+    max-width: 600px;
+    color: $color-white;
+    // font-size: 2rem;
+
+    & > h1 {
+      font-size: 4rem;
+      font-weight: 600;
+    }
+
+    & > h2 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    & > h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    & > p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+    }
+
+    & > ul {
+      list-style: none;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+  }
+
+  &__action {
+    text-align: center;
+    & > a > p {
+      font-size: 1.2rem;
+      text-decoration: none;
+      color: $color-white;
+    }
+    &--icon {
+      width: 4rem;
+    }
+  }
+
+  &__wrap {
+    @media screen and (min-width: $bp-small) {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__offers {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 0.1rem solid white;
+  }
+
+  &__offer {
+    margin: 1rem;
+    background-color: $color-quinary;
+    border-radius: 0.75rem;
+    padding: 1rem;
+
+    & > p {
+      font-size: 1.2rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+
+  &__menus {
+    border-top: 0.1rem solid white;
+    justify-content: flex-start;
+  }
+  &__menu {
+    margin: 1rem;
+  }
+}
